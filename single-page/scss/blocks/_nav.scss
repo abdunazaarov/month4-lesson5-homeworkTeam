@@ -1,0 +1,31 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 20px;
+}
+.nav__list {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+.nav__item {
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 20px;
+  border: none;
+  padding: 5px 8px;
+  transition: all 0.3s;
+}
+.nav__item:hover {
+  cursor: pointer;
+  background-color: #a8a2a2;
+}
+.nav__rigt {
+  display: flex;
+  gap: 30px;
+}
+.nav__rigt img {
+  cursor: pointer;
+}

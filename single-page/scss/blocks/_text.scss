@@ -1,0 +1,41 @@
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-self: center;
+  margin-top: 50px;
+}
+.text__list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0 auto;
+  font-size: 26px;
+  font-weight: bolder;
+}
+.text__text {
+  width: 800px;
+  margin: 30px auto;
+  color: #9f9f9f;
+  font-size: 20px;
+}
+.text__item {
+  padding: 8px 10px;
+  border-radius: 14px;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+.text__item:hover {
+  cursor: pointer;
+  background-color: rgb(78, 76, 74);
+}
+.text__img {
+  padding-top: 30px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.text__img img {
+  border: 24px;
+}
