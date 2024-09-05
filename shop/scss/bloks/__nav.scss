@@ -1,0 +1,30 @@
+.nav {
+  &__div-samll {
+    display: flex;
+    gap: 10px;
+    border: none;
+    width: 337px;
+    align-items: center;
+  }
+  &__p {
+    font-size: 20px;
+    line-height: 37.5px;
+    font-weight: 600;
+  }
+  &__p-2 {
+    font-size: 15px;
+    line-height: 30px;
+    color: #898989;
+    font-weight: 500;
+    padding-top: 2px;
+  }
+  &__div {
+    background-color: #faf3ea;
+    padding: 100px 53px;
+  }
+  &__div-2 {
+    display: flex;
+    align-items: center;
+    gap: 55.33px;
+  }
+}
