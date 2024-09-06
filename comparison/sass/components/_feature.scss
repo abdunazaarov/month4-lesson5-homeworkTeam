@@ -1,0 +1,24 @@
+.feature{
+    background-color: #FAF3EA;
+    padding: 100px;
+    &__wrapper{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 55px;
+    }
+    &__card{
+        display: flex;
+        gap: 10px;
+        &_title{
+            font-size: 20px;
+            font-weight: 600;
+            color: #242424;
+        }
+        &_desc{
+            margin-top: 2px;
+            color: #898989;
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+}

@@ -1,0 +1,70 @@
+.product{
+    &__wrapper{
+        padding: 40px 0;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 65px;
+    }
+    &__card{
+        &_subtitle{
+            font-size: 28px;
+            
+        }
+        &_desc{
+            width: 104px;
+            margin-top: 20px;
+            color: #727272;
+            font-size: 20px;
+            font-weight: 500;
+            border-bottom: 2px solid #727272;
+        }
+        &_img{
+            background-color: #F9F1E7;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        &_title{
+            margin-top: 18px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        &_price{
+            margin-top: 6px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        &_body{
+            margin-top: 6px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        &_num{
+            font-size: 18px;
+            font-weight: 500;
+        }
+        &_review{
+            padding-left: 5px;
+            font-size: 13px;
+            color: #9F9F9F;
+            border-left:1px solid #9F9F9F;
+        }
+        &_text{
+            font-size: 24px;
+            font-weight: 700;
+        }
+        &_choose{
+            margin-top: 14px;
+            background-color: #B88E2F;
+            border-radius: 6px;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 18px;
+            p{
+                font-size: 14px;
+                color: #FFFFFF;
+                font-weight: 600;
+            }
+        }
+    }
+}

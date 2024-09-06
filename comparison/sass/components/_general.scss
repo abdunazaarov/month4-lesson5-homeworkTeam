@@ -1,0 +1,43 @@
+.general{
+    margin-top: 50px;
+    &__wrapper{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    &__card{
+        padding-top: 42px;
+        padding-bottom: 40px;
+        padding-left: 60px;
+        border-top:1px solid #E8E8E8;
+        border-right:1px solid #E8E8E8;
+        display: flex;
+        flex-direction: column;
+        gap: 34px;
+        &_title{
+            font-size: 28px;
+        }
+        &_desc{
+            font-size: 20px;
+            font-weight: 500;
+        }
+        &_btn{
+            button{
+                margin-top: 10px;
+                padding: 17px 48px;
+                border: none;
+                background-color: #B88E2F;
+                font-size: 20px;
+                color: #fff;
+            }
+        }
+    }
+    &__card.top{
+        padding-top: 128px;
+    }
+    &__card.border{
+        border-top: none;
+    }
+}
+.general.top{
+    margin: auto;
+}
